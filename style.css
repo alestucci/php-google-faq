@@ -10,16 +10,37 @@ html {
 
 main {
     margin: 0 auto;
-    padding: 5rem 0;
+    padding: 3rem 0 0;
     width: min(80%, 960px);
 }
 
 h2,
 h3,
 p {
-    margin-top: 1em;
+    margin: 2.5em 0 1.5em;
+    line-height: 1.5em;
 }
 
-p {
+p,
+li {
     font-size: 14px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol {
+    margin-left: 16px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+    padding-left: 16px;
+}
+
+.letters {
+    list-style-type: lower-alpha;
+    padding-left: 2em;
 }
